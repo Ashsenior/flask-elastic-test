@@ -1,6 +1,6 @@
 from flask import Flask, request
 
-app = Flask(__name)
+app = Flask(__name__)
 
 # Create an endpoint to handle incoming requests
 @app.route('/elasticsearch-webhook', methods=['POST'])
